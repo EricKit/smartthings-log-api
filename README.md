@@ -1,5 +1,6 @@
 # smartthings-log-api
-Uses the smartthings SDK to read a device and write the results to a JSON file
+
+Uses the smartthings SDK to read a device and write the results to a JSON file. Updates every 5 minutes.
 
 Runs on Node 14 LTS
 
