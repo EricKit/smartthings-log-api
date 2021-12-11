@@ -10,6 +10,8 @@ Rename `secrets-example.ts` to `secrets.ts`
 
 run this via `ts-node get-data.ts`
 
+I keep this running with `pm2` on my server.
+
 ---
 
 This project provides the data for my dashboard
