@@ -93,12 +93,12 @@ async function getDataAndWrite() {
       console.log("Got data");
       const humidity = result.humidity;
       const temperature = result.temperature;
-      if (humiditys[0]?.timestamp.getTime() !== humidity.timestamp.getTime()) {
+      if (humiditys[humiditys.length - 1]?.timestamp.getTime() !== humidity.timestamp.getTime()) {
         humiditys.push(humidity);
         fs.writeFileSync("./humidity.json", JSON.stringify(humiditys));
       }
 
-      if (temperatures[0]?.timestamp.getTime() !== temperature.timestamp.getTime()) {
+      if (temperatures[temperatures.length - 1]?.timestamp.getTime() !== temperature.timestamp.getTime()) {
         temperatures.push(temperature);
         fs.writeFileSync("./temperature.json", JSON.stringify(temperatures));
       }
