@@ -1,0 +1,7 @@
+{
+  "deno.codeLens.test": false,
+  "deno.suggest.autoImports": false,
+  "deno.suggest.names": false,
+  "deno.suggest.paths": false,
+  "deno.suggest.imports.autoDiscover": false
+}
