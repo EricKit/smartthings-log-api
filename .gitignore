@@ -1,4 +1,6 @@
 secrets.ts
 humidity.json
 temperature.json
+outside-temperature.json
 node_modules
+.vscode/
